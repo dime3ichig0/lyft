@@ -1,0 +1,59 @@
+[19:14, 28/10/2017] +56 9 8836 4498: * { 
+ 	margin: 0;
+ 	padding: 0;
+ } 
+
+
+header {
+	background-color: #261b3d;
+	width: 100%;
+	height: 112px;
+	margin-top: 0px;
+	position: fixed;
+	z-index: 1;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	padding: 30px;
+	margin-right: 0;
+}
+
+#menu{
+	float: right;
+	margin-top: 20px;
+}
+
+.log-in {
+    background-color:#261b3d;
+    font-size: 18px;
+    border: 2px solid #FFF;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+img {
+	width: 66px;
+	height: 45px;
+	max-width: 10%;
+	min-width: 66px;
+	max-height: 100%;
+	position: static;
+	opacity: 1;
+	margin: 40px 40px 0 0;
+	float: left;
+	margin-left: 100px;
+	display: inline-block;
+}

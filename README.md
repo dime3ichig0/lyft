@@ -90,3 +90,93 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lyft b y  - i c h i </title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css"> <!-- trabajo linkeado -->
+</head>
+<body>
+  <div>
+    <div id="logotipo">
+      <img src="assets/images/logo-pink.png">
+    </div>
+    <div class="primer-menu">
+      <h3>Drive</h3>
+      <h3>Explore</h3>
+      <h3>Help</h3>
+      <p>Log In</p>
+    </div>
+  </div>
+  <div id="imagen-gif">
+    <img src="assets/images/hero.gif" alt="">
+  </div>
+  <div id="gradiente"></div>
+  <div id="cuadrado-blanco">
+    <div class="texto-cuadrado-blanco">
+      <h1>TURN MILES</h1>
+      <h1>INTO MONEY</h1>
+      <h5>SING UP TO DRIVE WITH LYFT</h5>
+      <h5>Phone Number</h5>
+      <hr>
+    </div>
+    <div class="texto-2-cuadrado-blanco"> <h5>Become a Driver</h5>
+      <h5><a href="#">Sing Up to Ride</a></h5>
+    </div>
+    <div class="texto-3-cuadrado-bl">
+      <h6>Already applied? <<a href="#">Check the status of your application here.</a></h6>
+      <h6>Earn money for inviting friends to drive.<a href="#">Learn more</a></h6>
+    </div>
+  </div>
+
+
+  
+</body>
+</html>
+
+-------------------------
+}
+
+
+#logotipo img{
+  width: 65px;
+  height: 46px;
+}
+
+.primer-menu h3{
+  display: inline-block;
+  margin:100px;
+  font-family:'Rubik', sans-serif;
+  font-size: 30px;
+}
+
+.primer-menu p{
+    border: 2px solid #A75050;
+  font-size: 40px;
+  border-radius: 100px;
+
+}
+
+.imgaen-gif img{
+  size: 100%;
+}
+
+#cuadrado-blanco{
+  background-color: #D01717;
+}
+
+.texto-cuadrado-blanco h1{
+  size: 20px;
+}
+
+hr{
+  width:  390px;
+}
+
+#gradiente{
+background: linear-gradient(#76278f,#2b1e66);
+} 
